@@ -1,3 +1,5 @@
 # sphalerite-my-nix
 NixOS configuration for the Sphalerite System
 very WIP, we are fairly new to NixOS and haven't even settled on a DE/WM right now. Currently on KDE and working on configuring it via plasma-manager to make it reproduceable...
+
+Everything should live in /etc/nixos, except for home.nix which should be placed in ~/.config/home-manager once home-manager is installed.
